@@ -1,0 +1,113 @@
+.conteiner{
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+    /* border: 5px solid black; */
+}
+header{
+    width: 100%;
+    margin: 0 auto;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 129px;
+    
+}
+.header_right{
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 107px;
+    align-items: center;
+    
+}
+ul{
+    font-size: 14px;
+    display: flex;
+    gap: 67px;
+   color: #8172d5;
+
+}
+.search_box{
+    width: 200px;
+    height: 40px;
+    border: 1px solid #f2f5f8;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.fa-magnifying-glass{
+    background-color: #8172d5;
+    color: white;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    align-content: center;
+}
+h1{
+    width: 85%;
+    /* margin-bottom: 20px; */
+    font-size: 18px;
+    font-family: 'Rubik Microbe';
+}
+section{
+    width: 80%;
+    height: 955px;
+    margin: 0 auto;
+    background-color: rgb(240, 235, 235);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-content: space-between;
+
+}
+figure{
+    border: 4px solid white;
+    width: 24%;
+    border-radius:10px ;
+    background-color: white;
+    /* height: 368px; */
+    
+
+}
+.img_box{
+    width: 224px;
+    height: 125px;
+    margin: 18px;
+}
+figcaption{
+    /* border: 2px solid green; */
+    margin: 76px 21px 20px 20px;
+    font-family: 'Rubik Microbe';
+}
+footer{
+    width: 100%;
+    height: 70%;
+    margin: 0 auto;
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    background-color: #758bfd;
+}
+.footer_logo{
+    /* border: 2px solid red; */
+    padding: 37px 139px;
+    color: #ffffff;
+}
+.footer_right{
+    /* border: 2px solid brown; */
+    display: flex;
+    margin-left: 270px;
+    margin-right: 37px 138px;
+    align-items: center;
+    
+}
+.box{
+    /* border: 1px solid black; */
+    padding-left: 70px;
+    font-size: 14px;
+    color:#ffffff ;
+}
